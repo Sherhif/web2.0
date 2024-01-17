@@ -1,0 +1,63 @@
+.days {
+    padding-right: 10px;
+    display: flex;
+    float: right;
+    text-indent: 10px;
+    padding-top: 40px;
+}
+
+.btnlink {
+    background-color: white;
+    color: blue;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.btnlink:hover {
+    background-color: blue;
+    color: white;
+}
+.move {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    float: right;
+    margin-top: -40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 210px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown-content a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
