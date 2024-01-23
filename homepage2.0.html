@@ -8,13 +8,16 @@
     <link rel="stylesheet" type="text/css" href="homepage2.0.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" style="width: 220px; padding-left: 10%; padding-top: 5px;">
+        <img src="images/logo.png" style="width: 220px; padding-left: 10%; padding-top: 30px;">
         <div class="days">
-            <span class=" bi bi-calendar-date-fill" style="color:#9c6464; font-size:13px;"> Monday - Friday</span>
+            <span class=" bi bi-calendar-date-fill" style="color:#999999; font-size:13px;"> Monday - Friday</span>
 
             <span class="bi bi-clock" style="font-size: 13px;color:#999999;"> 8am to 5pm</span>
 
@@ -27,12 +30,13 @@
             <span class="bi bi-linkedin" style="font-size:15px;color:black;"></span>
         </div>
     </header>
+
     <nav>
         <div class="move">
-            <button class="btnlink">HOME</button>
-            <button class="btnlink">ABOUT US</button>
+            <button class="btnlink"><a href=homepage2.0.html>HOME</a></button>
+            <button class="btnlink"><a href=about-us.html>ABOUT US</a></button>
             <div class="dropdown">
-                <button class="btnlink">SERVICES</button>
+                <button class="btnlink">SERVICES <i class="arrow down"></i></button>
                 <div class="dropdown-content">
                     <a href="https://cersgis.org/services">Remote Sensing</a>
                     <a href="https://cersgis.org/gis">GIS & GPS</a>
@@ -42,7 +46,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="btnlink">PROJECTS</button>
+                <button class="btnlink">PROJECTS <i class="arrow down"></i></button>
                 <div class="dropdown-content">
                     <a href="sanitationghana.org">BaSIS</a>
                     <a href="gmes.cersgis.org">GMES & Africa</a>
@@ -52,9 +56,195 @@
             <button class="btnlink">MAPS</button>
             <button class="btnlink">GALLERY</button>
             <button class="btnlink">BLOG</button>
-            <button class="btnlink">CONTACT US</button>
+            <button class="btnlink"><a href=contact-us.html>CONTACT US</a></button>
         </div>
     </nav>
+
+    <section>
+        <!-- carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+
+            </div>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/custom-header-bg-3.jpg" alt="Los Angeles" class="d-block" style="width:100%" ,
+                        height="500px">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/custom-header-bg.jpg" alt="Chicago" class="d-block" style="width:100%" ,
+                        height="500px">
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <aside>
+        <button type="menu" class="btnn">Request Technical Support</button>
+    </aside>
+
+    <main>
+        <div class="text-with-picture">
+            <img src="images/ab1_61TAe2m.jpg">
+            <div class="text-on-picture">
+                <p>Providing geographic information and</p>
+                <p>remote sensing services for sustainable</p>
+                <p>development</p>
+            </div>
+            <h2>Who we are</h2>
+            <p class="text-by-picture">The centre for Remote Sensing and Geographic Information Services started as a
+                Remote
+                Sensing
+                Application Laboratory in 1990 at the Department of Geography and Resources Development,
+                University of Ghana, Legon. The remote Sensing Application Unit developed its staff capacity to
+                provide contractual Remote sensing and GIS services to its clients. In 2000, the status of the
+                Remote
+                Sensing Application Unit changed to Centre for Remote Sensing and Geographic Information
+                Services (CERSGIS). The change of name meant change of strategic focus from a funded
+                establishment to a self-sustaining Non-profit Organization that focused on providing geographic
+                information and remote sensing services for sustainable development planning and management
+                of resources...
+            </p>
+            <hr class="solid">
+            <button type="button" class="whowe">REQUEST SUPPORT</button>
+            <button type="button" class="whowe">Get to know Us</button>
+        </div>
+    </main>
+
+    <mark>
+        <div class="news">
+            <h2>News</h2>
+            <hr class="solid">
+        </div>
+    </mark>
+
+    <article>
+        <div class="gallery">
+            <img src="images/WhatsApp_Image_2021-06-14_at_1.11.11_PM.jpeg">
+            <div class="inscribe-gallery">
+                <div class="inscribe">
+                    <div class="inscribe-header">Jun</div>
+                    <div class="inscribe-container">2021</div>
+                </div>
+                <div class="gallery-link">
+                    <a href="https://cersgis.org/news/?blog_id=10">Enroachment On The Sakumo Ramsar Site</a>
+                </div>
+            </div>
+            <div class="last-text">
+                <p>The Sakumo Ramsar Site also known as the Sakumono</p>
+                <p>Lagoon is a wetland of international importance. It is</p>
+                <p>the only</p>
+                <hr class="solid">
+                <button type="button" class="read-more">Read more...</button>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/Chinese-busted-for-mining-at-River-Pra-by-military-task-force.jpeg">
+            <div class="inscribe-gallery">
+                <div class="inscribe">
+                    <div class="inscribe-header">Jun</div>
+                    <div class="inscribe-container">2021</div>
+                </div>
+                <div class="gallery-link">
+                    <a href="https://cersgis.org/news/?blog_id=10">A military officer laments about effects of
+                        galamsey</a>
+                </div>
+            </div>
+            <div class="last-text">
+                <p>Only a few years ago, the issue was with the illegal</p>
+                <p>logging of tress in our forests for timber</p>
+                <hr class="solid">
+                <button type="button" class="read-more">Read more...</button>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <img src="images/Screenshot_2021-05-04_at_10.03.14-min.png">
+            <div class="inscribe-gallery">
+                <div class="inscribe">
+                    <div class="inscribe-header">May</div>
+                    <div class="inscribe-container">2021</div>
+                </div>
+                <div class="gallery-link">
+                    <a href="https://cersgis.org/news/?blog_id=10">MORNITORING ARTISANAL MINING (GALAMSEY) IN GHANA</a>
+                </div>
+            </div>
+            <div class="last-text">
+                <p>The Artisanal mining sector of Ghana was seen to</p>
+                <p>steadily grow in size and significance</p>
+                <hr class="solid">
+                <button type="button" class="read-more">Read more...</button><br><br>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <div>
+            <p class="post">Get in touch</p>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p style="color:grey; font-size:15px;">keep up on our always evolving product features and</p>
+            <p style="color:grey; font-size:15px;">technology. Enter your e-mail address and subscribe to our</p>
+            <p style="color:grey; font-size:15px;">newsletter</p>
+            <input class="btn2" type="email" id="email" name="email" placeholder="Email Address"><button class="b"
+                type="submit" value="Go"> Go! </button>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <span class=" bi bi-geo-alt-fill" style="color:grey; font-size:15px;"><b> Address:</b>
+                Annie Jiagge Road, University of Ghana-Legon-Accra
+            </span><br><br>
+
+            <span class="bi bi-telephone-fill" style="font-size: 15px;color:grey;">
+                +233-0303974211
+            </span><br><br>
+
+
+            <span class="bi bi-envelope" style="font-size:15px;color:grey;"><b> Email: </b>
+                <a href="mailto:mail@cersgis@ug.edu.gh<">cersgis@ug.edu.gh</a>
+            </span>
+        </div>
+        <div>
+            <h3>Useful Links</h3>
+            <p><a href="https://www.ug.edu.gh" target="_blank">University of Ghana, Legon</a></p>
+            <p><a href="https://www.epa.gov.gh/epa/" target="_blank">Environmental Protection Agency</a></p>
+            <p><a href="https://cersgis.org/projects" target="_blank">Products Catalog</a></p>
+            <p><a href="https://www.cersgis.org/training" target="_blank">CERSGIS Training</a></p>
+            <p><a href="https://www.cersgis.org/contact" target="_blank">Contact Us</a></p>
+        </div>
+    </footer>
+    <summary>
+        <div class="copy-right">
+            <img src="images/logo.png" style="width: 80px;">
+        </div>
+        <div class="copy-right">
+            <p>© Copyright 2019. All Rights Reserved.</p>
+        </div>
+        <div class="copy-right">
+            <div class="logo">
+                <span class="bi bi-facebook" style="font-size:15px;color:white;"></span>
+                <span class="bi bi-twitter" style="font-size:15px;color:white;"></span>
+                <span class="bi bi-linkedin" style="font-size:15px;color:white;"></span>
+            </div>
+        </div>
+    </summary>
 </body>
 
 </html>

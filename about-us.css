@@ -1,0 +1,131 @@
+.days {
+    padding-right: 10px;
+    display: flex;
+    float: right;
+    text-indent: 10px;
+    padding-top: 40px;
+}
+
+.btnlink {
+    background-color: white;
+    color: blue;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+.btnlink:hover {
+    background-color: blue;
+    color: white;
+    a {
+        color: white;
+    }
+}
+
+.move {
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    float: right;
+    padding-top: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 210px;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown-content a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+.arrow {
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.header {
+    border-top: 5px solid #384045;
+    border-bottom: 5px solid gray;
+
+    background-color: #0e0e0e;
+    padding: 20px;
+    color: white;
+    margin-top: 60px;
+
+}
+
+
+.home-link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+.home-link a:hover {
+    text-decoration: underline;
+}
+
+.title {
+
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+aside {
+    width: 100%;
+}
+
+
+section {
+    padding: 30px 100px 10px 100px;
+}
+
