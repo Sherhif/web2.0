@@ -227,7 +227,7 @@ mark .news{
     background-color: #0088CC;
 }
 
-footer {
+.first-part {
     display: flex;
     background-color: #0E0E0E;
     color: white;
@@ -241,18 +241,20 @@ footer {
     }
 }
 
-footer a:hover {
+.first-part a:hover {
     text-decoration: underline;
 }
 
-.post {
+.get-in-touch {
     color: #fff;
-    font-size: 1.2em;
+    font: 1.2em "Open Sans",Arial,sans-serif;
     background-color: #0088CC;
     position: absolute;
     display: inline-block;
+    padding: 10px;
     top: 0;
     left: 50;
+    margin-top: -17px;
 }
 
 footer::before {
@@ -260,11 +262,14 @@ footer::before {
     border-right: 10px solid #005580;
     border-top: 16px solid transparent;
     display: block;
+    position: absolute;
     width: 7px;
     height: 0;
+    margin-left: 30px;
+    margin-top: -16px;
 }
 
-summary {
+.second-part {
     background-color: #060606;
     padding: 50px;
 }

@@ -31,7 +31,6 @@
         color: white;
     }
 }
-
 .move {
     padding-right: 10px;
     padding-left: 10px;
@@ -122,10 +121,118 @@
 
 aside {
     width: 100%;
+    margin: 30px 0 30px 0;
 }
 
 
 section {
-    padding: 30px 100px 10px 100px;
+    padding: 5px 50px 100px 50px;
 }
 
+article {
+    background-color: #EDEDED;
+    padding: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    padding: 16px;
+    text-align: center;
+    border: 10px solid #777777;
+    height: 250px;
+    background-color: white;
+    p{
+        color: #777777;
+    }
+    h3{
+        font: 19px #1d2127;
+    }
+}
+
+figure {
+    text-align: center;
+    margin-top: 70px;
+    p{
+        color: #777777;
+    }
+}
+
+.fig-style {
+    font: 30px "Open Sans", Arial, sans-serif;
+    color: black;
+}
+
+
+.first-part {
+    display: flex;
+    background-color: #0E0E0E;
+    color: white;
+    position: relative;
+    div{
+    padding: 40px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.first-part a:hover {
+    text-decoration: underline;
+}
+
+.get-in-touch {
+    color: #fff;
+    font: 1.2em "Open Sans",Arial,sans-serif;
+    background-color: #0088CC;
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    top: 0;
+    left: 50;
+    margin-top: -17px;
+}
+
+footer::before {
+    content: "";
+    border-right: 10px solid #005580;
+    border-top: 16px solid transparent;
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 0;
+    margin-left: 30px;
+    margin-top: -16px;
+}
+
+.second-part {
+    background-color: #060606;
+    padding: 50px;
+}
+.copy-right {
+    float: left;
+    padding: 10px 30px 10px 15px;
+}
+
+.logo {
+    margin-left: 500px;
+}
