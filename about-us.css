@@ -134,7 +134,7 @@ section {
 
 article {
     background-color: #EDEDED;
-    padding: 80px;
+    padding: 50px;
 }
 
 * {
@@ -147,11 +147,11 @@ article {
     padding: 0 10px;
 }
 
-.row {
+.grid-view {
     margin: 0 -5px;
 }
 
-.row::after {
+.grid-view::after {
     content: "";
     display: table;
     clear: both;
@@ -171,17 +171,18 @@ article {
     }
 }
 
-figure {
+.our-team {
     text-align: center;
-    margin-top: 70px;
+    margin: 70px;
     p{
         color: #777777;
     }
 }
 
-.fig-style {
+.our-style {
     font: 30px "Open Sans", Arial, sans-serif;
     color: black;
+    padding: 20px;
 }
 
 
