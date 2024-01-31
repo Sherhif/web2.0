@@ -8,8 +8,9 @@
 
 .btnlink {
     background-color: white;
-    color: blue;
-    font-size: 11px;
+    color: #0088CC;
+    font: 11px "OPens Sans", Arial, sans-serif;
+    font-weight: 700;
     border: none;
     outline: none;
     cursor: pointer;
@@ -20,12 +21,12 @@
     border-radius: 5px;
     a {
         text-decoration: none;
-        color: blue;
+        color: #0088CC;
     }
 }
 
 .btnlink:hover {
-    background-color: blue;
+    background-color: #0088CC;
     color: white;
     a {
         color: white;
@@ -71,7 +72,7 @@
 
 
 .arrow {
-    border: solid blue;
+    border: solid #0088CC;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -97,7 +98,7 @@ aside {
 .btnn {
     padding: 10px;
     color: white;
-    background-color: #0077CC;
+    background-color: #0088CC;
     cursor: pointer;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -106,7 +107,7 @@ aside {
     -o-border-radius: 10px;
 }
 .btnn:hover {
-    background-color: #0088CC;
+    background-color: #0077CC;
 }
 
 .text-with-picture {
@@ -167,6 +168,7 @@ div.gallery {
 
 article {
     display: flex;
+    justify-content: center;
 }
 
 mark .news{
@@ -213,7 +215,7 @@ mark .news{
 .read-more {
     color: #FFFFFF;
     font: 12px "Opens Sans", Arial, sans-serif;
-    background-color: #0077CC;
+    background-color: #0088CC;
     cursor: pointer;
     float: right;
     padding: 5px 9px;
@@ -224,7 +226,7 @@ mark .news{
     -o-border-radius: 5px;
 }
 .read-more:hover {
-    background-color: #0088CC;
+    background-color: #0077CC;
 }
 
 .first-part {
