@@ -147,6 +147,14 @@ section {
     justify-content: center;
 }
 
+.cersgis-border {
+    width: 180px;
+    border-top: 5px solid #0088CC;
+    position: absolute;
+    top: 283px;
+    left: 50px;
+}
+
 .contact {
     position: absolute;
 }

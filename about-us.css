@@ -133,6 +133,13 @@ section {
     }
 }
 
+.cersgis-border {
+    width: 150px;
+    border-top: 5px solid #0088CC;
+    position: absolute;
+    top: 248px;
+}
+
 article {
     background-color: #EDEDED;
     padding: 50px;
