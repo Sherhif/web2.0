@@ -105,6 +105,10 @@ aside {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
 .btnn:hover {
     background-color: #0077CC;
@@ -153,7 +157,12 @@ hr.solid {
     padding: 10px 15px;
     cursor: pointer;
     margin: 20px;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }
+
 .whowe:hover {
     background-color:#2E353E;
 }
@@ -200,6 +209,7 @@ mark .news{
     padding-top: 10px;
     a {
         text-decoration: none;
+        color: #0088CC;
     }
 }
 
