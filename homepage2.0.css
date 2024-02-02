@@ -91,12 +91,13 @@ section {
 }
 
 aside {
-    padding: 40px 0 40px 80px;
+    padding: 40px 0 40px 0;
     background-color: black;
 }
 
 .btnn {
     padding: 10px;
+    margin-left: 10%;
     color: white;
     background-color: #0088CC;
     cursor: pointer;
@@ -122,18 +123,20 @@ aside {
         float: right;
         width: 600px;
         padding: 5px 15px 5px 5px;
+        margin-right: 10%;
     }
     h2{
         color: white;
         font:"Open Sans", Arial, sans-serif;
         padding: 20px 0 40px 20px;
+        margin-left: 10%;
     }
 }
 
 .text-on-picture {
     position: absolute;
-    left: 70%;
-    margin-top: 270px;
+    left: 55%;
+    margin-top: 290px;
     color: white;
     line-height: 4px;
     font: 25px;
@@ -143,6 +146,8 @@ aside {
     font: 18px "Open Sans", Arial, sans-serif;
     padding: 0px 10px 10px 20px;
     color: white;
+    width: 40%;
+    margin-left: 10%;
 }
 
 hr.solid {
@@ -161,6 +166,10 @@ hr.solid {
         text-decoration: none;
         color: white;
     }
+}
+
+.whowe-main {
+    margin-left: 10%;
 }
 
 .whowe:hover {
@@ -292,4 +301,45 @@ footer::before {
 
 .logo {
     margin-left: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    .text-by-picture {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-on-picture {
+        left: 30%;
+    }
+
+    article {
+        display: inline-block;
+        margin-left: 20%;
+    }
+
+    .first-part {
+        display: flex;
+        position: relative;
+        div{
+        padding: 20px;
+        }
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .news {
+        margin-left: 20%;
+    }
+
+    .move {
+        float: none;
+    }
+
+    .days {
+        float: none;
+    }
 }
