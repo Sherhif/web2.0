@@ -248,3 +248,24 @@ footer::before {
 .logo {
     margin-left: 500px;
 }
+
+
+@media screen and (min-width: 1024px) {
+    .move {
+        float: none;
+    }
+
+    .days {
+        float: none;
+    }
+
+    .cersgis-border {
+        top: 380px;
+    }
+
+    .first {
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
+}
