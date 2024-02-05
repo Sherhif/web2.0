@@ -19,6 +19,7 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+
     a {
         text-decoration: none;
         color: #0088CC;
@@ -28,10 +29,12 @@
 .btnlink:hover {
     background-color: #0088CC;
     color: white;
+
     a {
         color: white;
     }
 }
+
 .move {
     padding-right: 10px;
     padding-left: 10px;
@@ -103,6 +106,7 @@
     gap: 10px;
     align-items: center;
     list-style: none;
+
     a {
         text-decoration: none;
         color: #0088CC;
@@ -128,7 +132,9 @@ aside {
 
 section {
     padding: 5px 50px 100px 50px;
-    p, div {
+
+    p,
+    div {
         color: #777777;
     }
 }
@@ -137,7 +143,7 @@ section {
     width: 150px;
     border-top: 5px solid #0088CC;
     position: absolute;
-    top: 248px;
+    top: 250px;
 }
 
 article {
@@ -171,10 +177,12 @@ article {
     border: 10px solid #777777;
     height: 250px;
     background-color: white;
-    p{
+
+    p {
         color: #777777;
     }
-    h3{
+
+    h3 {
         font: 19px #1d2127;
     }
 }
@@ -182,7 +190,8 @@ article {
 .our-team {
     text-align: center;
     margin: 70px;
-    p{
+
+    p {
         color: #777777;
     }
 }
@@ -199,9 +208,11 @@ article {
     background-color: #0E0E0E;
     color: white;
     position: relative;
-    div{
-    padding: 40px;
+
+    div {
+        padding: 40px;
     }
+
     a {
         text-decoration: none;
         color: white;
@@ -214,7 +225,7 @@ article {
 
 .get-in-touch {
     color: #fff;
-    font: 1.2em "Open Sans",Arial,sans-serif;
+    font: 1.2em "Open Sans", Arial, sans-serif;
     background-color: #0088CC;
     position: absolute;
     display: inline-block;
@@ -240,6 +251,7 @@ footer::before {
     background-color: #060606;
     padding: 50px;
 }
+
 .copy-right {
     float: left;
     padding: 10px 30px 10px 15px;
@@ -250,7 +262,7 @@ footer::before {
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .move {
         float: none;
     }
@@ -267,5 +279,42 @@ footer::before {
         float: none;
         width: 100%;
         padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .days {
+        margin-right: 10%;
+    }
+
+    .move {
+        margin: 0 10% 0 50%;
+    }
+
+    .header {
+        margin-top: 80px;
+    }
+
+    .cersgis-border {
+        top: 240px;
+    }
+
+
+    .copy-right {
+        padding: 10px 190px 10px 15px;
+    }
+
+    footer::before {
+        margin-left: 80px;
+    }
+
+    .first-part {
+        div {
+            padding: 40px 90px;
+        }
+    }
+
+    .second-part {
+        padding-left: 10%;
     }
 }

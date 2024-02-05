@@ -297,6 +297,7 @@ footer::before {
 .copy-right {
     float: left;
     padding: 10px 30px 10px 15px;
+    color: gray;
 }
 
 .logo {
@@ -323,7 +324,7 @@ footer::before {
         display: flex;
         position: relative;
         div{
-        padding: 20px;
+        padding: 20px 100px 5px 70px;
         }
     }
 
@@ -349,8 +350,35 @@ footer::before {
         margin-right: 10%;
     }
 
+    .move {
+        margin-left: 50%;
+    }
+
     mark .news {
         padding: 0;
         margin-left: 10%;
+    }
+
+    .text-on-picture {
+        left: 66%;
+        margin-top: 305px;
+    }
+
+    .copy-right {
+        padding: 10px 190px 10px 15px;
+    }
+
+    footer::before {
+        margin-left: 80px;
+    }
+
+    .first-part {
+        div {
+            padding: 40px 90px;
+        }
+    }
+
+    .second-part {
+        padding-left: 10%;
     }
 }
