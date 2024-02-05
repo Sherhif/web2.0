@@ -343,3 +343,17 @@ footer::before {
         float: none;
     }
 }
+
+@media screen and (max-width: 1920px) {
+    .days, .move {
+        margin-right: 10%;
+    }
+
+    mark .news {
+        padding: 0;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and
