@@ -256,3 +256,24 @@ footer::before {
 .logo {
     margin-left: 500px;
 }
+
+
+@media screen and (max-width: 1920px) {
+    .copy-right {
+        padding: 10px 190px 10px 15px;
+    }
+
+    footer::before {
+        margin-left: 80px;
+    }
+
+    .first-part {
+        div {
+            padding: 40px 90px;
+        }
+    }
+
+    .second-part {
+        padding-left: 10%;
+    }
+}
