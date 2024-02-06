@@ -345,7 +345,7 @@ footer::before {
     }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1550px) {
     .days, .move {
         margin-right: 10%;
     }

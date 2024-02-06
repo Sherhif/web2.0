@@ -148,7 +148,7 @@ section {
     padding: 20px;
     text-align: justify;
     justify-content: center;
-    margin: 0 10% 0 10%;
+    margin: 0 5% 0 5%;
 }
 
 .cersgis-border {
@@ -228,14 +228,20 @@ footer::before {
 .copy-right {
     float: left;
     padding: 10px 30px 10px 15px;
+    color: gray;
 }
 
 .logo {
     margin-left: 500px;
+    color: white;
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1550px) {
+    .days, .move {
+        margin-right: 10%;
+    }
+
 .copy-right {
     padding: 10px 190px 10px 15px;
 }
